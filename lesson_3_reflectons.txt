@@ -1,0 +1,10 @@
+What happens when you initialize a repository? Why do you need to do it?
+When we initialize a repository a .git folder is formed in the the main repository. We need to do
+this so that the git is setup and can start tracking the files.
+
+How is the staging area different from the working directory and the repository? What value do you
+ think it offers?
+The staging are contains the files that are tracked by git. i.e if there are any changes git will
+consider those, also the commits happen on the staging area, the copy is formed only of the staging
+are and not of the untracked files. This provides the users a lot of flexibility in terms which files
+one should track and which should not.
