@@ -8,3 +8,30 @@ The staging are contains the files that are tracked by git. i.e if there are any
 consider those, also the commits happen on the staging area, the copy is formed only of the staging
 are and not of the untracked files. This provides the users a lot of flexibility in terms which files
 one should track and which should not.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+In order to use staging are to make sure you have one commit per logical change we only add those
+changes to the staging are that are relavent to one logical change.
+
+What are some situations when branches would be helpful in keeping your history organized?
+How would branches help?
+When ever one is doing an experiment on the code, making a branch is helpful. Also when one is
+developing a version of code which is not merged into the main code.
+
+How do the diagrams help you visualize the branch structure?
+Diagrams help us visualize the branch structure as without the diagram it is difficult to understand the
+strucutre.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result of merging two branches together is a single commit that contains the code form both the
+ branches. In the diagram we show them using a node that has two parents, the parents are end nodes
+ of the two branches. This is because the new commit now contains the commits of both the branches
+ in chronological order.
+
+ What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+ Automatic merging works great when the changes are not in the same area of the file, however when
+ there are changes in the same area of the file it becomes difficult to judge which part to keep and which
+ to delete. In this particular case the automatic merging will cause problems. Manual merging on the
+ other hand is tidius and time consuming but makes sure that you have the right and required piece of
+ code in the merged commit.   
